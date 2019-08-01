@@ -1,0 +1,126 @@
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:aliceblue;
+}
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:dodgerblue 3px solid;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#branding{
+    float:left;
+}
+span{
+    color:dodgerblue; 
+    font-weight:bold;
+}
+nav{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+    float:right;
+    margin-top:-30px;
+}
+ul{
+    margin:0; 
+    padding:0;
+}
+li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+#services{
+    color:dodgerblue;
+    font-weight:bold;
+}
+#home{
+    color:#cccccc;
+    font-weight:bold;
+}
+#about{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+.newsletter{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    padding: 15px;
+    color:#ffffff;
+    background:#35424a;
+}
+#newsletter{
+    padding-left: 20px;
+}
+h1{
+    float: left;
+}
+#news-form{
+    float:right;
+    padding:15px;
+}
+input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+button{
+    height:38px;
+    background:dodgerblue;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+#main{
+    margin-top:20px;
+}
+.main{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#main-col{
+    float: left; 
+    width: 65%;
+    margin-bottom: 10%;
+}
+#services{
+    display: none;
+    padding:20px;
+    border: #ffffff solid 1px; 
+    margin-bottom:5px;
+    background:#e6e6e6;
+}
+#side-bar{
+    float: right;
+    width: 30%;
+    margin-top:10px;
+    padding: 2%; 
+    background:#35424a;
+    color:#ffffff; 
+    margin-bottom:10px;
+}
+textarea{
+    width: 90%;
+    padding: 5px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color:dodgerblue;
+    text-align:center;  
+}
